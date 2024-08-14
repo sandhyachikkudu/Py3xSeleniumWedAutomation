@@ -1,0 +1,82 @@
+project##1:
+    
+    # - Find the element the anchor tag
+    # We need to find the unique attribute which can find the web element 
+        # # <a id="btn-make-appointment" href="./profile.php#login" class="btn btn-dark btn-lg">Make Appointment</a>
+    # - Click on it
+    # Verify that URL changes
+
+
+    <input type="text" class="form-control" id="txt-username" name="username" 
+    placeholder="Username" value="" autocomplete="off">
+
+
+    <input type="password" class="form-control" id="txt-password"
+     name="password" placeholder="Password" value="" autocomplete="off">
+
+     <button id="btn-login" type="submit" class="btn btn-default">Login</button>
+
+     <div class="col-sm-12 text-center">
+                <h2>Make Appointment</h2>
+                <hr class="small">
+            </div>
+
+
+
+project##02
+    # <input type="email" class="text-input W(100%)" name="username" id="login-username" data-qa="hocewoqisi">
+    # <input type="password" class="text-input W(100%)" 
+    # name="password" id="login-password" data-qa="jobodapuxe" data-gtm-form-interact-field-id="1">
+
+    # custom attribute - []
+
+    # <button type="submit" id="js-login-btn" class="btn btn--positive btn--inverted W(100%) H(48px) Fz(16px)" onclick="login.login(event)" data-qa="sibequkica">
+	# 								<span class="icon loader hidden" data-qa="zuyezasugu"></span>
+	# 								<span data-qa="ezazsuguuy">Sign in</span>
+	# 							# </button>
+
+
+    # <div class="notification-box-description" id="js-notification-box-msg" 
+    # data-qa="rixawilomi">Your email, password, IP address or location did not match</div>
+
+
+
+
+project##03  :
+
+
+    email ------<input _ngcontent-lbx-c4="" autofocus="" class="id-form-ctrl ng-pristine ng-valid ng-touched" 
+    id="username" name="username" type="email">
+
+    password----------<input _ngcontent-lbx-c4="" class="id-form-ctrl ng-untouched ng-pristine ng-valid" 
+    id="password" maxlength="20" name="password" tabindex="0" type="password">
+
+
+    <button _ngcontent-lbx-c4="" class="id-btn id-info-btn-frm" id="frm-btn" type="submit">Sign in</button>
+
+    <div _ngcontent-elc-c4="" class="id-upgrade-info id-expire-date id-tkn-btn id-expired-acc" 
+    id="upgrade"><!----><!----><!----><!---->
+    <span _ngcontent-elc-c4="">Your free trial has expired</span><button _ngcontent-elc-c4="" class="id-btn id-warning-btn-drk id-tkn-btn"
+     style="display: block">Upgrade Now!</button></div>
+    <span _ngcontent-elc-c4="">Your free trial has expired</span>
+
+
+<div _ngcontent-elc-c4="" class="id-upgrade-info id-expire-date id-tkn-btn id-expired-acc" id="upgrade"><!----><!----><!----><!----><span _ngcontent-elc-c4="">Your free trial has expired</span><button _ngcontent-elc-c4="" class="id-btn id-warning-btn-drk id-tkn-btn"
+ style="display: block">Upgrade Now!</button></div>
+    
+
+
+
+
+
+
+
+
+
+lab007
+
+<input type="email" class="text-input W(100%)" name="username" id="login-username" data-qa="hocewoqisi">
+
+
+<div class="notification-box-description" id="js-notification-box-msg" 
+data-qa="rixawilomi">Single Sign-On (SSO) is not enabled for your account. Enter the password to sign in.</div>

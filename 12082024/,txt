@@ -1,0 +1,13 @@
+Email_web_element =driver.find_element(By.CSS_SELECTOR,"[data-qa='hocewoqisi']")
+#    Email_web_element.send_keys("admin123")
+
+
+#    submit_button_element = driver.find_element(By.CSS_SELECTOR,"[data-qa='jobodapuxe']")
+#    submit_button_element.click(   )
+   
+#    time.sleep(2)
+#    error_message_web_element = driver.find_element(By.CSS_SELECTOR,"[data-qa='rixawilomi']")
+#    assert error_message_web_element.text == "Single Sign-On (SSO) is not enabled for your account. Enter the password to sign in."
+#    time.sleep(3)
+#    driver.quit()
+
