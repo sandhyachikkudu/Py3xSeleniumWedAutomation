@@ -11,3 +11,10 @@ Email_web_element =driver.find_element(By.CSS_SELECTOR,"[data-qa='hocewoqisi']")
 #    time.sleep(3)
 #    driver.quit()
 
+
+
+
+# <span _ngcontent-tcb-c3="">Your free trial has expired</span>
+
+<input _ngcontent-yqy-c4="" autofocus="" class="id-form-ctrl ng-valid ng-dirty ng-touched" id="username" name="username" type="email">
+

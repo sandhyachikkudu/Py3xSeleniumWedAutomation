@@ -4,6 +4,10 @@ import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import (ElementNotVisibleException,
+                                        ElementNotSelectableException)
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 @allure.title("Verify the error in app.VWO.com")
 @allure.description("Verify the error while  log in toapp.VWO.com")
@@ -23,7 +27,11 @@ def test_min_project_02():
 
     submit_button_element = driver.find_element(By.ID,"js-login-btn")
     submit_button_element.click(   )
-    time.sleep(5)
+    # time.sleep(5)
+    WebDriverWait(driver=driver,timeout=5).until(
+        EC.visibility_of_element_located((By.ID,"js-notification-box-msg"))
+    )
+    
 
     error_message_web_element = driver.find_element(By.ID,"js-notification-box-msg")
     assert error_message_web_element.text == "Your email, password, IP address or location did not match"
